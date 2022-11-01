@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    height: 100vh;
+    background-color: black;
+}
+
+.container {
+    margin-left: 171px;
+    margin-right: 171px;
+    border: 2px solid green;
+}
+
+/* Flex Box */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+}
+
+.image1 img {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.image2 img {
+    height: 230px;
+}
+
+.image1, .image2, .image3, .image4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.image2 .last-image, .image1 .last-image, .image4 .last-image {
+    margin-top: 15px;
+}
+
+.image2 img, .image3 img {
+    width: 300px;
+}
+
+.image3 .last-image {
+    margin-top: 14px;
+    height: 305px;
+}
+
+.image4 .last-image {
+    height: 200px;
+}
+
+.object {
+    background-image: url(naure1.jpg);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 160px;
+    border-radius: 100%;
+    background-position: center;
+}
+
+.image4 img {
+    width: 300px;
+    height: 280px;
+    object-fit: cover;
+}
+
+.image2 :last-child, .image3 :last-child, .image4 :last-child {
+    margin-top: 15px;
+}
+
+.image4 :last-child {
+    height: 250px;
+}
+
+.image-wrapper {
+    margin: 4px;
+}
+
+
+
+
+
